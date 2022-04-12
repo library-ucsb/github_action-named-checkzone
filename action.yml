@@ -1,0 +1,9 @@
+name: 'Named-Checkzone'
+author: 'Josh Preston'
+description: 'Checks the syntax and integrity of ISC BIND/named zone files.  Forked from grramos/action-named-checkzone'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'code'
+  color: 'red'
